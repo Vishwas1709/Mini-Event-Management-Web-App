@@ -9,6 +9,10 @@ export default function Navbar() {
         <li><Link to="/">Dashboard</Link></li>
         <li><Link to="/login">Login</Link></li>
         <li><Link to="/signup">Signup</Link></li>
+        <li><Link to="/events">Events</Link></li>
+        <li><Link to="/events/new" className="create-event-btn">Create Event</Link></li>
+        
+
         <li>
           <Link to="/profile" className="profile-link">
             <img

@@ -1,0 +1,41 @@
+.eventlist-container {
+  padding: 40px;
+  background: #f4f6f7;
+}
+
+.search-box {
+  padding: 10px;
+  margin: 10px 0 20px;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.event-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.event-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 260px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.detail-btn {
+  display: inline-block;
+  margin-top: 10px;
+  background: #2c3e50;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.detail-btn:hover {
+  background: #f39c12;
+}

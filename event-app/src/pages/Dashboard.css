@@ -1,36 +1,54 @@
 .dashboard-container {
-  text-align: center;
   padding: 40px;
   background: #ecf0f1;
   min-height: calc(100vh - 60px);
 }
 
-.dashboard-container h1 {
-  margin-bottom: 30px;
-  color: #2c3e50;
-}
-
-.card-container {
+.dashboard-sections {
   display: flex;
-  justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
 }
 
 .card {
   background: white;
-  padding: 40px 20px;
-  width: 220px;
-  border-radius: 12px;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1;
+  min-width: 300px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  font-size: 18px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: transform 0.3s, background 0.3s;
 }
 
-.card:hover {
-  transform: translateY(-5px);
-  background: #f39c12;
+.event-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.rsvp-controls {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.attendees-input {
+  width: 60px;
+  padding: 6px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.rsvp-btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  background: #27ae60;
   color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.rsvp-btn:hover {
+  background: #2ecc71;
 }

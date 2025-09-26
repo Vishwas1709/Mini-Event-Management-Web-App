@@ -1,0 +1,48 @@
+.eventdetail-container {
+  padding: 40px;
+  background: #ecf0f1;
+  min-height: calc(100vh - 60px);
+}
+
+.rsvp-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 500px;
+}
+
+.rsvp-form input,
+.rsvp-form textarea {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  resize: none;
+}
+
+.rsvp-form textarea {
+  height: 100px;
+}
+
+.rsvp-btn {
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background: #27ae60;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.rsvp-btn:hover {
+  background: #2ecc71;
+}
+
+.rsvp-success {
+  margin-top: 20px;
+  padding: 20px;
+  background: #dff0d8;
+  color: #3c763d;
+  border-radius: 8px;
+  max-width: 500px;
+}
