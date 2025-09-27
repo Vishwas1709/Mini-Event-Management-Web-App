@@ -1,13 +1,14 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useState } from "react";
 import Navbar from "./components/Navbar";
-import Login from "./pages/Login";
-import Signup from "./pages/Signup";
-import Dashboard from "./pages/Dashboard";
-import Profile from "./pages/Profile";
-import EventList from "./pages/EventList";
-import EventDetail from "./pages/EventDetail";
-import AdminEvents from "./pages/AdminEvents";
+import Login from "./pages/Login/Login";
+import Signup from "./pages/Signup/Signup";
+import Dashboard from "./pages/Dashboard/Dashboard";
+import Profile from "./pages/Profile/Profile";
+import EventList from "./pages/EventList/EventList";
+import EventDetail from "./pages/EventDetail/EventDetail";
+import AdminEvents from "./pages/AdminEvents/AdminEvents";
+
 
 function App() {
   // Shared state for events & RSVPs
